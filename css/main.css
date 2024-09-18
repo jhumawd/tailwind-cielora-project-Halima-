@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: jost;
+    
+}
+
+/* @layer utilities{
+    .nav_link{
+        @apply text-primary font-medium text-xl hover:text-rose-600 transition ease-in-out " 
+    },
+
+}, */
+
+.bg_img{
+    background-image: url(/img/hero-bg.png);
+
+}
+.section_bg{
+    background-image: url(/img/section-bg.png);
+}
+
+.card{
+    overflow: visible;
+    transition: transform 0.8s ease-in-out;
+       
+}
+
+.card:hover{
+    transform: scale(0.9);
+    border: 1px solid rgb(179, 179, 254);
+  
+}
